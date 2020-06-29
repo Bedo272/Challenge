@@ -1,0 +1,20 @@
+$(document).ready(function() {
+    $('#btn').mouseenter(function(){
+        $('#btn').addClass('btn');
+    });
+     $('#btn').mouseleave(function(){
+        $('#btn').removeClass('btn');
+    });
+    $('#btn1').mouseenter(function(){
+        $('#btn1').addClass('btn');
+    });
+    $('#btn1').mouseleave(function(){
+        $('#btn1').removeClass('btn');
+    });
+    $('#btn2').mouseenter(function(){
+        $('#btn2').addClass('btn');
+    });
+    $('#btn2').mouseleave(function(){
+        $('#btn2').removeClass('btn');
+    });  
+});
